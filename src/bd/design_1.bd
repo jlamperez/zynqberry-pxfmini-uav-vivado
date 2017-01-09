@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:isValidated="true" bd:synthFlowMode="None" bd:tool_version="2016.2" bd:top="design_1" bd:version="1.00.a">
+<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:BoundaryCRC="0x82661133C2DB6B4C" bd:device="xc7z010clg225-1" bd:isValidated="true" bd:synthFlowMode="None" bd:tool_version="2016.4" bd:top="design_1" bd:version="1.00.a">
 
   <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
     <spirit:vendor>xilinx.com</spirit:vendor>
@@ -458,10 +458,10 @@
         <spirit:internalPortReference spirit:componentRef="processing_system7_0" spirit:portRef="FCLK_CLK0"/>
         <spirit:internalPortReference spirit:componentRef="axi_pulsetrain_in_0" spirit:portRef="s00_axi_aclk"/>
         <spirit:internalPortReference spirit:componentRef="processing_system7_0" spirit:portRef="M_AXI_GP0_ACLK"/>
-        <spirit:internalPortReference spirit:componentRef="rst_processing_system7_0_100M" spirit:portRef="slowest_sync_clk"/>
         <spirit:internalPortReference spirit:componentRef="processing_system7_0_axi_periph" spirit:portRef="ACLK"/>
         <spirit:internalPortReference spirit:componentRef="processing_system7_0_axi_periph" spirit:portRef="S00_ACLK"/>
         <spirit:internalPortReference spirit:componentRef="processing_system7_0_axi_periph" spirit:portRef="M00_ACLK"/>
+        <spirit:internalPortReference spirit:componentRef="rst_processing_system7_0_100M" spirit:portRef="slowest_sync_clk"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>processing_system7_0_FCLK_RESET0_N</spirit:name>
@@ -738,10 +738,6 @@
           <spirit:name>ARESETN</spirit:name>
           <spirit:wire>
             <spirit:direction>in</spirit:direction>
-            <spirit:vector>
-              <spirit:left>0</spirit:left>
-              <spirit:right>0</spirit:right>
-            </spirit:vector>
           </spirit:wire>
         </spirit:port>
         <spirit:port>
@@ -754,10 +750,6 @@
           <spirit:name>S00_ARESETN</spirit:name>
           <spirit:wire>
             <spirit:direction>in</spirit:direction>
-            <spirit:vector>
-              <spirit:left>0</spirit:left>
-              <spirit:right>0</spirit:right>
-            </spirit:vector>
           </spirit:wire>
         </spirit:port>
         <spirit:port>
@@ -770,10 +762,6 @@
           <spirit:name>M00_ARESETN</spirit:name>
           <spirit:wire>
             <spirit:direction>in</spirit:direction>
-            <spirit:vector>
-              <spirit:left>0</spirit:left>
-              <spirit:right>0</spirit:right>
-            </spirit:vector>
           </spirit:wire>
         </spirit:port>
       </spirit:ports>
@@ -974,10 +962,6 @@
           <spirit:name>M_ARESETN</spirit:name>
           <spirit:wire>
             <spirit:direction>in</spirit:direction>
-            <spirit:vector>
-              <spirit:left>0</spirit:left>
-              <spirit:right>0</spirit:right>
-            </spirit:vector>
           </spirit:wire>
         </spirit:port>
         <spirit:port>
@@ -990,10 +974,6 @@
           <spirit:name>S_ARESETN</spirit:name>
           <spirit:wire>
             <spirit:direction>in</spirit:direction>
-            <spirit:vector>
-              <spirit:left>0</spirit:left>
-              <spirit:right>0</spirit:right>
-            </spirit:vector>
           </spirit:wire>
         </spirit:port>
       </spirit:ports>
